@@ -1,5 +1,5 @@
 @extends('layout')
-
+<title>connexion</title>
 @section('contenu')
 
     <div id="login">

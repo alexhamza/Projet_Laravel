@@ -17,6 +17,9 @@ use App\Models\User as User;
 Route::get('/', function () {
     return view('welcome');
 });
+Route::get('/postinscription', function () {
+    return view('postinscription');
+});
 
 Route::get('/contact/{prenom}', function () {
     $prenom = request('prenom');

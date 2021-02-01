@@ -16,6 +16,7 @@ class Articles extends Migration
         Schema::create('articles', function (Blueprint $table) {
             $table->id();
             $table->string('name');
+            $table->string('categorie');
             $table->string('texte');
             $table->timestamps();
         });

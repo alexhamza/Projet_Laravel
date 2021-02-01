@@ -30,7 +30,7 @@ class InscriptionController extends Controller
             'password' => bcrypt(request('password')),
             'name' => request('name'),
         ]);
-        return " Vous êtes enregistré au nom de " . request('name');
+        return view('postinscription');
         
     }
 

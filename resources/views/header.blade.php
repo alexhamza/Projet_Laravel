@@ -19,6 +19,7 @@
           </li>
         </ul>
         <form class="form-inline my-2 my-lg-0">
+              <a style="color:black;" href="{{ url('/articles') }}">Ajouter un article |</a>
               <a style="color:black;" href="{{ url('/email') }}">Envoyer un mail |</a>
           @if(auth()->check())
               <a style="color:black;" href="{{ url('/signout') }}">Sign out</a>

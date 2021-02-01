@@ -1,5 +1,5 @@
 @extends('layout')
-
+<title>inscription</title>
 @section('contenu')
 
     <div id="register">
