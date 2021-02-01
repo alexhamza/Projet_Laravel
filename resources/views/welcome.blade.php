@@ -2,7 +2,7 @@
 <title>Home page</title>
 @section('contenu')
 <br><br>
-<h1 style="text-align: center">Articles à la une</h1>
+<h1 style="text-align: center">Articles à la Une</h1>
 @php
 $articles = DB::select('SELECT * FROM articles');
 

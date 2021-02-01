@@ -18,7 +18,7 @@ class InscriptionController extends Controller
             'email' =>['required' , 'email '],
             //name doit etre obligatoire
             'name' =>['required'],
-            // password doir etre obligatoire, doit etre egal au password confirmation, doit faire minimum 8 caractere
+            // password doir etre obligatoire, doit etre egal au password confirmation, doit faire minimum 8 caracteres
             'password' =>['required' , 'confirmed' , 'min:8'],
             //password_confirmation doir etre obligatoire
              'password_confirmation' =>['required'],
